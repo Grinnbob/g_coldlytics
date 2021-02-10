@@ -1,0 +1,51 @@
+from app.services.closecom.service import CloseComService
+
+async def test_upsert():
+    data = {'NewLead': {'contacts': [{'email': 'wolfgang.maurer@aracon.at',
+                                         'first_name': 'Kirill'}],
+                           'organization': 'hackernoon',
+                           'internal_status': 'update',
+                           'lead_fields': {'url': 'hellobello.at'},
+                           'name': 'NewLead'},
+
+            'HelloBello': {'contacts': [{'email': 'wolfgang.maurer@aracon.at',
+                                         'first_name': 'Kirill1'}],
+                           'organization': 'hackernoon',
+                           'internal_status': 'update',
+                           'lead_fields': {'url': 'hellobello.at'},
+                           'name': 'HelloBello'},
+            'New Horizons Ireland': {'contacts': [{'email': 'alan.deery@nhireland.ie',
+                                                   'first_name': 'Kirill1'}],
+                                     'organization': 'hackernoon',
+                                     'internal_status': 'update',
+                                     'lead_fields': {'url': 'nhireland.ie'},
+                                     'name': 'New Horizons Ireland'},
+            'Non-Zero Blockchain Software': {'contacts': [{'email': 'hadi.kabalan@non-zero.io',
+                                                           'first_name': 'Hadi'}],
+                                             'organization': 'hackernoon',
+                                             'internal_status': 'update',
+                                             'lead_fields': {'url': 'non-zero.io'},
+                                             'name': 'Non-Zero Blockchain Software'},
+            'Quantitative Systems': {'contacts': [{'email': 'evan@quantitativesystems.com',
+                                                   'first_name': 'Evan'}],
+                                     'organization': 'hackernoon',
+                                     'internal_status': 'update',
+                                     'lead_fields': {'url': 'quantitativesystems.com'},
+                                     'name': 'Quantitative Systems'},
+            'The Hacker News': {'contacts': [{'email': 'mohit@thehackernews.com',
+                                              'first_name': 'Mohit'}],
+                                'organization': 'hackernoon',
+                                'internal_status': 'update',
+                                'lead_fields': {'url': 'thehackernews.com'},
+                                'name': 'The Hacker News'},
+            'Upvest': {'contacts': [{'email': 'martin@upvest.co', 'first_name': 'Martin'},
+                                    {'email': 'ks.shilov+test@gmail.com',
+                                     'first_name': 'Kirill'}],
+                       'organization': 'hackernoon',
+                       'internal_status': 'update',
+                       'lead_fields': {'url': 'upvest.co'},
+                       'name': 'Upvest'}}
+
+    closecom_service = CloseComService()
+
+    return await closecom_service.save_from_spreadsheet(leads=data, update=True)

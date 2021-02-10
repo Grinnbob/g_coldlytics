@@ -1,0 +1,33 @@
+Задача:
+Быстрее делать фронтенд (новый компонент + логика должны занимать НЕ более 1 дня)
+
+Используем технологии:
+1. vue cli 3 (он включает webpack, вот здесь описание: https://medium.com/the-vue-point/vue-cli-3-0-is-here-c42bebe28fbb) Вот здесь туториал: https://www.youtube.com/watch?v=nSmMkeNjjPg
+2. bootstrap-vue: все компоненты используем из этой темы НЕ используем elemet-ui
+
+Как создать нашу тему? (Она уже готова, большинство шагов здесь для описания того как это работает)
+Для примера можно использовать вот этот проект: https://github.com/coreui/coreui-free-vue-admin-template
+Описание структуры проекта: https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb
+Пример: https://github.com/coreui/coreui-free-vue-admin-template/tree/master/src
+
+1. vue create frontend-v2  - создаем проект
+2. vue add bootstrap-vue - добавляем bootstrap-vue в проект
+3. vue inspect > output.js - сгенерирует webpack config (в vue cli 3 вручную конфиг писать уже не нужно, он автоматически встроен)
+4. vue build --target wc --name o24-email-step
+
+
+Кастомизация темы через SCSS.
+Основная дока здесь: https://bootstrap-vue.org/docs/reference/theming
+Список переменных: https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+Туториал по кастомизации бутстрапа через SCSS: https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
+
+Пример темы на bootstrapvue:
+https://github.com/creativetimofficial/bootstrap-vue-argon-dashboard
+
+rgba(244,245,249,.8)
+
+height: 80
+background-color: #FFF
+color: #262a79
+font-size: 14px
+line-height: 50px

@@ -1,0 +1,2 @@
+class CLBaseModel():
+    pass

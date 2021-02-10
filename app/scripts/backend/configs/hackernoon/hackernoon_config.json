@@ -1,0 +1,81 @@
+{
+    "name": "hackernoon",
+    "api_key": "api_5cl6dKneoL7cIvk8IU3g3p.0cdvgI8oFazkWYBEz7xflK",
+    "organization": "coldlytics_agency",
+    "sdr": [],
+    "shared_list": [],
+    "client_folder_id": "1O3iUb9ipPMgPI039wKWZYtAvdTRj4YMx",
+    "client_folder_url": "https://drive.google.com/drive/u/0/folders/1O3iUb9ipPMgPI039wKWZYtAvdTRj4YMx",
+    "leads_spreadsheet": "https://docs.google.com/spreadsheets/d/1yde1bcoKLt1CQ4OWNKUPeS5a_ud7myqhKQYbJ8lDifM",
+    "stats_spreadsheet": "https://docs.google.com/spreadsheets/d/15UYtLbwl5ubvsEX8NTnMz7My7Afp1BI8G-G-cOmgKcA",
+    "smartview_count": 8,
+    "warmup": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        4,
+        3
+    ],
+    "blacklist": {
+        "emails": [],
+        "domains": []
+    },
+    "emails": {},
+    "outreach": {},
+    "howtosend": {},
+    "sequences": {},
+    "smartviews": {},
+    "valid_leads": [
+        "valid",
+        "catch-all"
+    ],
+    "lead_mapping": {},
+    "lead_fields": [
+        "company_name",
+        "company_url"
+    ],
+    "fields_mapping": {
+        "1735899647": {
+            "header_row": 13,
+            "sheet_title": "HN-test",
+            "contact_fields": {
+                "personal email": "email",
+                "first name": "name",
+                "job title" : "title"
+            },
+            "lead_fields": {
+                "company name": "name",
+                "website": "url"
+            }
+        },
+        "194311017" : {
+            "header_row": 13,
+            "sheet_title": "HN-5",
+            "contact_fields": {
+                "personal email": "email",
+                "first name": "name",
+                "job title" : "title"
+            },
+            "lead_fields": {
+                "company name": "name",
+                "website": "url"
+            }
+
+        }
+    }
+}

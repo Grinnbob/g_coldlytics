@@ -1,0 +1,65 @@
+{
+    "name": "coldlytics",
+    "organization": "coldlytics_agency",
+    "api_key": "api_5cl6dKneoL7cIvk8IU3g3p.0cdvgI8oFazkWYBEz7xflK",
+    "sdr": [],
+    "shared_list": [],
+    "client_folder_id": "",
+    "client_folder_url": "",
+    "leads_spreadsheet": "https://docs.google.com/spreadsheets/d/17XJPdsHRaDkprupdRsBZCRy6q4MV_Df9OaimVEQeYAI/",
+    "stats_spreadsheet": "",
+    "smartview_count": 8,
+    "warmup": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        4,
+        3
+    ],
+    "blacklist": {
+        "emails": [],
+        "domains": []
+    },
+    "emails": {},
+    "outreach": {},
+    "howtosend": {},
+    "sequences": {},
+    "smartviews": {},
+    "valid_leads": [
+        "valid",
+        "catch-all"
+    ],
+    "fields_mapping": {
+        "0": {
+            "header_row": 3,
+            "sheet_title": "DATA",
+            "contact_fields": {
+                "email": "email",
+                "first name": "name",
+                "title": "title"
+            },
+            "lead_fields": {
+                "agency name": "name",
+                "website": "url",
+                "segment": "segment",
+                "customer": "customer",
+                "location": "location"
+            }
+        }
+    }
+}

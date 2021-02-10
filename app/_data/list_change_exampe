@@ -1,0 +1,37 @@
+{"_id":
+    {
+        "_data": "825F7C449D000000012B022C0100296E5A1004C3D9B3AE68B5493FA720B57743262D5346645F696400645F78BDF0424E55D1B06911E20004"
+    },
+  "operationType": "update",
+  "clusterTime":
+    {
+        "$timestamp": {"t": 1601979549, "i": 1}
+    },
+   "fullDocument": {"_id": {"$oid": "5f78bdf0424e55d1b06911e2"}, "filter": [{"account1": ["label1", "label2"]}], "title": "Updated field 79", "owner_id": {"$oid": "5f75d8a2e0bb55e2040b461f"}, "tags": ["tag1", "tag2", "tag3"], "created_time": {"$date": 1601748464623}},
+   "ns": {"db": "TC-dev", "coll": "sync_list"},
+   "documentKey": {"_id": {"$oid": "5f78bdf0424e55d1b06911e2"}},
+   "updateDescription": {
+           "updatedFields": {"title": "Updated field 79"},
+           "removedFields": []
+    }
+}
+
+
+[2020-10-06 14:38:19,393] [219194] [WARNING] <ListChangeModel: operationType='update', fullDocument={'_id': {'$oid': '5f78bdf0424e55d1b06911e2'}, 'filter': [{'account1': ['label1', 'label2']}], 'title': 'Updated field sss 333 222 dddd 234234 sdfsdf sdfadsf asdfadsfsdf sdfsdf', 'owner_id': {'$oid': '5f75d8a2e0bb55e2040b461f'}, 'tags': ['tag1', 'tag2', 'tag3'], 'created_time': {'$date': 1601748464623}}, ns={'db': 'TC-dev', 'coll': 'sync_list'}, documentKey={'_id': {'$oid': '5f78bdf0424e55d1b06911e2'}}, updateDescription={'updatedFields': {'title': 'Updated field sss 333 222 dddd 234234 sdfsdf sdfadsf asdfadsfsdf sdfsdf'}, 'removedFields': []}, _id={'_data': '825F7C5726000000012B022C0100296E5A1004C3D9B3AE68B5493FA720B57743262D5346645F696400645F78BDF0424E55D1B06911E20004'}, clusterTime={'$timestamp': {'t': 1601984294, 'i': 1}}>
+[2020-10-06 14:38:31,389] [219194] [WARNING] <ListChangeModel: operationType='update', fullDocument={'_id': {'$oid': '5f78bdf0424e55d1b06911e2'}, 'filter': [{'account1': ['label1', 'label2']}], 'title': '', 'owner_id': {'$oid': '5f75d8a2e0bb55e2040b461f'}, 'tags': ['tag1', 'tag2', 'tag3'], 'created_time': {'$date': 1601748464623}}, ns={'db': 'TC-dev', 'coll': 'sync_list'}, documentKey={'_id': {'$oid': '5f78bdf0424e55d1b06911e2'}}, updateDescription={'updatedFields': {'title': ''}, 'removedFields': []}, _id={'_data': '825F7C5735000000012B022C0100296E5A1004C3D9B3AE68B5493FA720B57743262D5346645F696400645F78BDF0424E55D1B06911E20004'}, clusterTime={'$timestamp': {'t': 1601984309, 'i': 1}}>
+[2020-10-06 14:38:55,396] [219194] [WARNING] <ListChangeModel: operationType='delete', fullDocument={}, ns={'db': 'TC-dev', 'coll': 'sync_list'}, documentKey={'_id': {'$oid': '5f78bdf0424e55d1b06911e2'}}, updateDescription={}, _id={'_data': '825F7C5749000000012B022C0100296E5A1004C3D9B3AE68B5493FA720B57743262D5346645F696400645F78BDF0424E55D1B06911E20004'}, clusterTime={'$timestamp': {'t': 1601984329, 'i': 1}}>
+
+
+
+[2020-10-06 14:40:31,432] [219194] [WARNING] <ListChangeModel: operationType='insert', fullDocument={'_id': {'$oid': '5f7c57ae7fd04724cfcaf375'}, 'tags': ['1', '2'], 'title': 'sadfasdfadsf'}, ns={'db': 'TC-dev', 'coll': 'sync_list'}, documentKey={'_id': {'$oid': '5f7c57ae7fd04724cfcaf375'}}, updateDescription={}, _id={'_data': '825F7C57AE000000022B022C0100296E5A1004C3D9B3AE68B5493FA720B57743262D5346645F696400645F7C57AE7FD04724CFCAF3750004'}, clusterTime={'$timestamp': {'t': 1601984430, 'i': 2}}>
+
+
+#insert (need to create job labels)
+"{\"_id\": {\"_data\": \"825F86DDF0000000032B022C0100296E5A10042048F2D78CC44BBFAD6E057F87764DBA46645F696400645F86DDF0DDB29B201C13EA2C0004\"}, \"operationType\": \"insert\", \"clusterTime\": {\"$timestamp\": {\"t\": 1602674160, \"i\": 3}}, \"fullDocument\": {\"_id\": {\"$oid\": \"5f86ddf0ddb29b201c13ea2c\"}, \"owner_id\": {\"$oid\": \"5f75d8a2e0bb55e2040b461f\"}, \"title\": \"Random title\", \"account_labels\": {\"account1\": [1, 2, 3], \"account2\": [4, 5, 6]}, \"created_time\": {\"$date\": 1602674160179}}, \"ns\": {\"db\": \"TC-dev\", \"coll\": \"sync_list\"}, \"documentKey\": {\"_id\": {\"$oid\": \"5f86ddf0ddb29b201c13ea2c\"}}}"
+
+#add 1 label values:
+"{\"_id\": {\"_data\": \"825F86DE63000000012B022C0100296E5A10042048F2D78CC44BBFAD6E057F87764DBA46645F696400645F86DDF0DDB29B201C13EA2C0004\"}, \"operationType\": \"update\", \"clusterTime\": {\"$timestamp\": {\"t\": 1602674275, \"i\": 1}}, \"fullDocument\": {\"_id\": {\"$oid\": \"5f86ddf0ddb29b201c13ea2c\"}, \"owner_id\": {\"$oid\": \"5f75d8a2e0bb55e2040b461f\"}, \"title\": \"Random title\", \"account_labels\": {\"account1\": [1, 2, 3, 7.0], \"account2\": [4, 5, 6]}, \"created_time\": {\"$date\": 1602674160179}}, \"ns\": {\"db\": \"TC-dev\", \"coll\": \"sync_list\"}, \"documentKey\": {\"_id\": {\"$oid\": \"5f86ddf0ddb29b201c13ea2c\"}}, \"updateDescription\": {\"updatedFields\": {\"account_labels.account1.3\": 7.0}, \"removedFields\": []}}"
+
+#add X label values:
+"{\"_id\": {\"_data\": \"825F86DEAC000000012B022C0100296E5A10042048F2D78CC44BBFAD6E057F87764DBA46645F696400645F86DDF0DDB29B201C13EA2C0004\"}, \"operationType\": \"update\", \"clusterTime\": {\"$timestamp\": {\"t\": 1602674348, \"i\": 1}}, \"fullDocument\": {\"_id\": {\"$oid\": \"5f86ddf0ddb29b201c13ea2c\"}, \"owner_id\": {\"$oid\": \"5f75d8a2e0bb55e2040b461f\"}, \"title\": \"Random title\", \"account_labels\": {\"account1\": [1, 2, 3, 7.0, -1.0, -2.0, -3.0], \"account2\": [4, 5, 6]}, \"created_time\": {\"$date\": 1602674160179}}, \"ns\": {\"db\": \"TC-dev\", \"coll\": \"sync_list\"}, \"documentKey\": {\"_id\": {\"$oid\": \"5f86ddf0ddb29b201c13ea2c\"}}, \"updateDescription\": {\"updatedFields\": {\"account_labels.account1.4\": -1.0, \"account_labels.account1.5\": -2.0, \"account_labels.account1.6\": -3.0}, \"removedFields\": []}}"
+

@@ -1,0 +1,47 @@
+{
+    "name": "adoptics",
+    "api_key": "",
+    "organization": "coldlytics_agency",
+    "sdr": [],
+    "shared_list": [],
+    "client_folder_id": "",
+    "client_folder_url": "",
+    "leads_spreadsheet": "https://docs.google.com/spreadsheets/d/1zjtma-8qGN98a4LaPjNNCopphdTuusnnivMD_yaKUf8/",
+    "stats_spreadsheet": "",
+    "smartview_count": 8,
+    "warmup": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        4,
+        3
+    ],
+    "blacklist": {
+        "emails": [],
+        "domains": []
+    },
+    "emails": {},
+    "outreach": {},
+    "howtosend": {},
+    "sequences": {},
+    "smartviews": {},
+    "valid_leads": [
+        "valid",
+        "catch-all"
+    ]
+}

@@ -1,0 +1,4 @@
+"email","ZB Status","ZB Sub Status","ZB Account","ZB Domain","ZB First Name","ZB Last Name","ZB Gender","ZB Free Email","ZB MX Found","ZB MX Record","ZB SMTP Provider","ZB Did You Mean"
+"donovan@rjm.marketing","catch-all","","donovan","rjm.marketing","","","","false","True","asp.reflexion.net","",""
+"brian@wolfhoundinteractive.com","catch-all","","brian","wolfhoundinteractive.com","","","","false","True","wolfhoundinteractive-com.mail.protection.outlook.com","microsoft",""
+"bob@10poundgorilla.com","catch-all","","bob","10poundgorilla.com","","","","false","True","server96.appriver.com","",""

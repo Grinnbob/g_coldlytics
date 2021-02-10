@@ -1,0 +1,725 @@
+{
+  "labels": [
+    {
+      "id": "CHAT",
+      "name": "CHAT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "SENT",
+      "name": "SENT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "INBOX",
+      "name": "INBOX",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "IMPORTANT",
+      "name": "IMPORTANT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "TRASH",
+      "name": "TRASH",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "DRAFT",
+      "name": "DRAFT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShowIfUnread",
+      "type": "system"
+    },
+    {
+      "id": "SPAM",
+      "name": "SPAM",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_FORUMS",
+      "name": "CATEGORY_FORUMS",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_UPDATES",
+      "name": "CATEGORY_UPDATES",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_PERSONAL",
+      "name": "CATEGORY_PERSONAL",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_PROMOTIONS",
+      "name": "CATEGORY_PROMOTIONS",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_SOCIAL",
+      "name": "CATEGORY_SOCIAL",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "STARRED",
+      "name": "STARRED",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "UNREAD",
+      "name": "UNREAD",
+      "type": "system"
+    },
+    {
+      "id": "Label_1065903181525451729",
+      "name": "NOT READY",
+      "type": "user"
+    },
+    {
+      "id": "Label_1071250453737628057",
+      "name": "Not informative",
+      "type": "user"
+    },
+    {
+      "id": "Label_1143484458908857491",
+      "name": "Germany",
+      "type": "user"
+    },
+    {
+      "id": "Label_1145523164785483287",
+      "name": "GeekForge - AR/VR",
+      "type": "user"
+    },
+    {
+      "id": "Label_1171663719356735233",
+      "name": "Poland",
+      "type": "user"
+    },
+    {
+      "id": "Label_1255838964487719658",
+      "name": "CPA",
+      "type": "user"
+    },
+    {
+      "id": "Label_1341889232046004627",
+      "name": "Turkish",
+      "type": "user"
+    },
+    {
+      "id": "Label_1345677922633088057",
+      "name": "Nigeria",
+      "type": "user"
+    },
+    {
+      "id": "Label_1482215443747869076",
+      "name": "Japan",
+      "type": "user"
+    },
+    {
+      "id": "Label_1614362830413079012",
+      "name": "Cyprus",
+      "type": "user"
+    },
+    {
+      "id": "Label_184064825375661327",
+      "name": "JOB SEARCH",
+      "type": "user"
+    },
+    {
+      "id": "Label_1903814691458002962",
+      "name": "NOT INTERESTED",
+      "type": "user"
+    },
+    {
+      "id": "Label_1949698606733233811",
+      "name": "TCARD",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "color": {
+        "textColor": "#ffffff",
+        "backgroundColor": "#fb4c2f"
+      }
+    },
+    {
+      "id": "Label_1959877950713474649",
+      "name": "Argentina",
+      "type": "user"
+    },
+    {
+      "id": "Label_2018889846794836033",
+      "name": "NEGATIVE",
+      "type": "user"
+    },
+    {
+      "id": "Label_2034982640216060307",
+      "name": "Hungary",
+      "type": "user"
+    },
+    {
+      "id": "Label_2153359014983143466",
+      "name": "UAE",
+      "type": "user"
+    },
+    {
+      "id": "Label_220763792101614582",
+      "name": "Australia",
+      "type": "user"
+    },
+    {
+      "id": "Label_2291804074064999727",
+      "name": "10Kqa-CryptoExperts",
+      "type": "user"
+    },
+    {
+      "id": "Label_2292992869975537252",
+      "name": "VA - hiring",
+      "type": "user"
+    },
+    {
+      "id": "Label_2421656829372012653",
+      "name": "111 - TCARD",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "color": {
+        "textColor": "#ffffff",
+        "backgroundColor": "#fb4c2f"
+      }
+    },
+    {
+      "id": "Label_2445298829617507057",
+      "name": "Gibraltar",
+      "type": "user"
+    },
+    {
+      "id": "Label_2455062657986711485",
+      "name": "ADDED",
+      "type": "user"
+    },
+    {
+      "id": "Label_257",
+      "name": "Mixmax Reminders",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user"
+    },
+    {
+      "id": "Label_258",
+      "name": "Mixmax Reminded",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user"
+    },
+    {
+      "id": "Label_2582802652108025529",
+      "name": "U.S.",
+      "type": "user"
+    },
+    {
+      "id": "Label_2787424554916684831",
+      "name": "INTERESTED",
+      "type": "user"
+    },
+    {
+      "id": "Label_281637872017164359",
+      "name": "Israel",
+      "type": "user"
+    },
+    {
+      "id": "Label_282",
+      "name": "Notes",
+      "type": "user"
+    },
+    {
+      "id": "Label_283",
+      "name": "lemlist",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShowIfUnread",
+      "type": "user",
+      "color": {
+        "textColor": "#ffffff",
+        "backgroundColor": "#f691b3"
+      }
+    },
+    {
+      "id": "Label_284",
+      "name": "Folio",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "color": {
+        "textColor": "#434343",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "id": "Label_285",
+      "name": "Folio Archive",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "user",
+      "color": {
+        "textColor": "#434343",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "id": "Label_286",
+      "name": "Folio/Salina",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "user",
+      "color": {
+        "textColor": "#434343",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "id": "Label_2916779573449203952",
+      "name": "2019-Jan-2nd",
+      "type": "user"
+    },
+    {
+      "id": "Label_3028147527472791146",
+      "name": "Yandex.Money",
+      "type": "user"
+    },
+    {
+      "id": "Label_3329425667304418324",
+      "name": "INFO-PARTNERS",
+      "type": "user"
+    },
+    {
+      "id": "Label_3542462214665958095",
+      "name": "GF.Ac Lawyers",
+      "type": "user"
+    },
+    {
+      "id": "Label_3576046406774298071",
+      "name": "GF.F Clients",
+      "type": "user"
+    },
+    {
+      "id": "Label_3645588064429860039",
+      "name": "OUTREACHER24-TEST-LABEL",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "color": {
+        "textColor": "#ffffff",
+        "backgroundColor": "#fb4c2f"
+      }
+    },
+    {
+      "id": "Label_3655351131798832214",
+      "name": "TELEGRAM",
+      "type": "user"
+    },
+    {
+      "id": "Label_3668205212602784303",
+      "name": "Canada",
+      "type": "user"
+    },
+    {
+      "id": "Label_3688727818193168298",
+      "name": "only tokens",
+      "type": "user"
+    },
+    {
+      "id": "Label_376770076720800576",
+      "name": "EXCHANGES - SCAM RESEARCH",
+      "type": "user"
+    },
+    {
+      "id": "Label_3776414832115732868",
+      "name": "Legal",
+      "type": "user"
+    },
+    {
+      "id": "Label_3813475595471829386",
+      "name": "No answer",
+      "type": "user"
+    },
+    {
+      "id": "Label_3949468941255400775",
+      "name": "Contact later",
+      "type": "user"
+    },
+    {
+      "id": "Label_3985894772190365630",
+      "name": "Hong Kong",
+      "type": "user"
+    },
+    {
+      "id": "Label_3991030643647700338",
+      "name": "Answered",
+      "type": "user"
+    },
+    {
+      "id": "Label_4292388985451549721",
+      "name": "Trader",
+      "type": "user"
+    },
+    {
+      "id": "Label_452369601150312150",
+      "name": "111111 - 14-Feb",
+      "type": "user"
+    },
+    {
+      "id": "Label_4530088596399506654",
+      "name": "1111-2020 for sales",
+      "type": "user"
+    },
+    {
+      "id": "Label_4639186399399528719",
+      "name": "10Kqa-3-steps-goals",
+      "type": "user"
+    },
+    {
+      "id": "Label_4719535653206862155",
+      "name": "Articles Clients",
+      "type": "user"
+    },
+    {
+      "id": "Label_4768707985247287379",
+      "name": "France",
+      "type": "user"
+    },
+    {
+      "id": "Label_4783559194990774502",
+      "name": "U.K.",
+      "type": "user"
+    },
+    {
+      "id": "Label_4834275913799553727",
+      "name": "Puerto Rico",
+      "type": "user"
+    },
+    {
+      "id": "Label_4990336048355349021",
+      "name": "Bulgaria",
+      "type": "user"
+    },
+    {
+      "id": "Label_5012458836924822366",
+      "name": "GeekForge - AI",
+      "type": "user"
+    },
+    {
+      "id": "Label_5125610574395480141",
+      "name": "PARTNER",
+      "type": "user"
+    },
+    {
+      "id": "Label_5129249201338348221",
+      "name": "3",
+      "type": "user"
+    },
+    {
+      "id": "Label_5130622876930074763",
+      "name": "SPONSORSHIP",
+      "type": "user"
+    },
+    {
+      "id": "Label_5234502508144028334",
+      "name": "10kqa - Crypto Lawyers",
+      "type": "user"
+    },
+    {
+      "id": "Label_5284039557823000356",
+      "name": "Guatemala",
+      "type": "user"
+    },
+    {
+      "id": "Label_5344534507547117725",
+      "name": "Blockchain Core",
+      "type": "user"
+    },
+    {
+      "id": "Label_5495762959873547914",
+      "name": "Brasil",
+      "type": "user"
+    },
+    {
+      "id": "Label_5572936452221032374",
+      "name": "111 - Product University",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "color": {
+        "textColor": "#094228",
+        "backgroundColor": "#42d692"
+      }
+    },
+    {
+      "id": "Label_5580340769378038481",
+      "name": "close to sales",
+      "type": "user"
+    },
+    {
+      "id": "Label_5633602862433412849",
+      "name": "2019-Feb-1st",
+      "type": "user"
+    },
+    {
+      "id": "Label_565137544823533019",
+      "name": "10kqa - Crypto Founders (Jurisdiction)",
+      "type": "user"
+    },
+    {
+      "id": "Label_5740394727276327542",
+      "name": "2",
+      "type": "user"
+    },
+    {
+      "id": "Label_5831957482365433857",
+      "name": "AAA - STUDY HALL",
+      "type": "user"
+    },
+    {
+      "id": "Label_5869832286038495250",
+      "name": "Smart Contracts ETH",
+      "type": "user"
+    },
+    {
+      "id": "Label_6035226189451659751",
+      "name": "Singapore",
+      "type": "user"
+    },
+    {
+      "id": "Label_6205293280277854426",
+      "name": "2019-goal-GUEST POSTS",
+      "type": "user"
+    },
+    {
+      "id": "Label_6320057778702236914",
+      "name": "Jan-1-VCs",
+      "type": "user"
+    },
+    {
+      "id": "Label_6375548475792464983",
+      "name": "Switzerland",
+      "type": "user"
+    },
+    {
+      "id": "Label_6528757379418717224",
+      "name": "AAA - CONTINUE SALES",
+      "type": "user"
+    },
+    {
+      "id": "Label_6727131612787512808",
+      "name": "Estonia",
+      "type": "user"
+    },
+    {
+      "id": "Label_6985899409140351951",
+      "name": "In progress",
+      "type": "user"
+    },
+    {
+      "id": "Label_7073995662455822129",
+      "name": "GeekForge - Robotics",
+      "type": "user"
+    },
+    {
+      "id": "Label_7109782737988382729",
+      "name": "1111 - Leads tasks",
+      "type": "user"
+    },
+    {
+      "id": "Label_7234171046197199238",
+      "name": "GeekForge - QC",
+      "type": "user"
+    },
+    {
+      "id": "Label_7254403422736005245",
+      "name": "START",
+      "type": "user"
+    },
+    {
+      "id": "Label_72830534851045821",
+      "name": "GEEKFORGE PARTNER",
+      "type": "user"
+    },
+    {
+      "id": "Label_7344211670163117497",
+      "name": "GeekForge - Blockchain",
+      "type": "user"
+    },
+    {
+      "id": "Label_7347015928838841651",
+      "name": "Payment services",
+      "type": "user"
+    },
+    {
+      "id": "Label_7375752631651734163",
+      "name": "Korea",
+      "type": "user"
+    },
+    {
+      "id": "Label_7450860862143653636",
+      "name": "YOUTUBE",
+      "type": "user"
+    },
+    {
+      "id": "Label_7470548945746645787",
+      "name": "10kqa - Crypto Media Owners",
+      "type": "user"
+    },
+    {
+      "id": "Label_749167867307528015",
+      "name": "10kQa - Startup Founders",
+      "type": "user"
+    },
+    {
+      "id": "Label_781177283209064343",
+      "name": "WRITING",
+      "type": "user"
+    },
+    {
+      "id": "Label_7844026669993605476",
+      "name": "NO MONEY",
+      "type": "user"
+    },
+    {
+      "id": "Label_7875584475765901881",
+      "name": "Lithuania",
+      "type": "user"
+    },
+    {
+      "id": "Label_7920328622224098909",
+      "name": "queue",
+      "type": "user"
+    },
+    {
+      "id": "Label_7942566021271070222",
+      "name": "AAA - October 2019 Sales",
+      "type": "user"
+    },
+    {
+      "id": "Label_8004969314034575823",
+      "name": "GF.Academy",
+      "type": "user"
+    },
+    {
+      "id": "Label_805807058449730387",
+      "name": "Russia",
+      "type": "user"
+    },
+    {
+      "id": "Label_8138539904849888881",
+      "name": "AAA - ALWAYS ON TOP",
+      "type": "user"
+    },
+    {
+      "id": "Label_8176432850165550963",
+      "name": "1111 - IMAGES STATS",
+      "type": "user"
+    },
+    {
+      "id": "Label_8264824201120857569",
+      "name": "Malta",
+      "type": "user"
+    },
+    {
+      "id": "Label_8325387182069169130",
+      "name": "1111-2020 for sales part 2",
+      "type": "user"
+    },
+    {
+      "id": "Label_8340269865558878627",
+      "name": "11111 - AAAA - Budapesht",
+      "type": "user"
+    },
+    {
+      "id": "Label_8355336750476358487",
+      "name": "Expensive",
+      "type": "user"
+    },
+    {
+      "id": "Label_8466092076240463333",
+      "name": "DEVELOPMENT",
+      "type": "user"
+    },
+    {
+      "id": "Label_8521164767709663191",
+      "name": "FACEBOOK ADS",
+      "type": "user"
+    },
+    {
+      "id": "Label_8563299930692443738",
+      "name": "NOT NOW",
+      "type": "user"
+    },
+    {
+      "id": "Label_8675797878774653485",
+      "name": "GF.Ac Blockchain Developers",
+      "type": "user"
+    },
+    {
+      "id": "Label_8773435583884515992",
+      "name": "Infrustructure",
+      "type": "user"
+    },
+    {
+      "id": "Label_8824480217146432265",
+      "name": "South Africa",
+      "type": "user"
+    },
+    {
+      "id": "Label_8868055259373516513",
+      "name": "AAA - Alex Fedotoff Consulting",
+      "type": "user"
+    },
+    {
+      "id": "Label_8873391799110742389",
+      "name": "111- AAA - COINTELEGRAPH",
+      "type": "user"
+    },
+    {
+      "id": "Label_893494753405539739",
+      "name": "AAAA - OUTREACHER24",
+      "type": "user"
+    },
+    {
+      "id": "Label_8953071302773633030",
+      "name": "Serbia",
+      "type": "user"
+    },
+    {
+      "id": "Label_915027400028311667",
+      "name": "Slovakia",
+      "type": "user"
+    },
+    {
+      "id": "Label_9173589021270130482",
+      "name": "AAA - 2019 - Summer - In progress",
+      "type": "user"
+    }
+  ]
+}

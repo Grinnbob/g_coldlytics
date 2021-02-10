@@ -1,0 +1,3 @@
+"email","ZB Status","ZB Sub Status","ZB Account","ZB Domain","ZB First Name","ZB Last Name","ZB Gender","ZB Free Email","ZB MX Found","ZB MX Record","ZB SMTP Provider","ZB Did You Mean"
+"mmcilvried@empiretoday.com","valid","","mmcilvried","empiretoday.com","","","","false","True","us-smtp-inbound-1.mimecast.com","mimecast",""
+"adickherber@floorcoveringsinternational.com","valid","","adickherber","floorcoveringsinternational.com","","","","false","True","floorcoveringsinternational-com.mail.protection.outlook.com","microsoft",""

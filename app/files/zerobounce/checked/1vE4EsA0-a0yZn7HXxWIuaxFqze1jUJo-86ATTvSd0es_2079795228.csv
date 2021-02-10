@@ -1,0 +1,5 @@
+"email","ZB Status","ZB Sub Status","ZB Account","ZB Domain","ZB First Name","ZB Last Name","ZB Gender","ZB Free Email","ZB MX Found","ZB MX Record","ZB SMTP Provider","ZB Did You Mean"
+"nicole.cokley@macys.com","catch-all","","nicole.cokley","macys.com","","","","false","True","mxa-0009cc01.gslb.pphosted.com","proofpoint",""
+"marjorie@chelius.com","valid","","marjorie","chelius.com","","","","false","True","aspmx.l.google.com","g-suite",""
+"pgutala@akoyabio.com","valid","","pgutala","akoyabio.com","","","","false","True","akoyabio-com.mail.protection.outlook.com","microsoft",""
+"devin.obrien@askovfinlayson.com","valid","","devin.obrien","askovfinlayson.com","","","","false","True","askovfinlayson-com.mail.protection.outlook.com","microsoft",""

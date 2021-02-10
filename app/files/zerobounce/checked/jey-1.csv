@@ -1,0 +1,4 @@
+"email","ZB Status","ZB Sub Status","ZB Account","ZB Domain","ZB First Name","ZB Last Name","ZB Gender","ZB Free Email","ZB MX Found","ZB MX Record","ZB SMTP Provider","ZB Did You Mean"
+"invalid@example.com","invalid","does_not_accept_mail","invalid","example.com","","","","false","False","","",""
+"disposable@example.com","invalid","does_not_accept_mail","disposable","example.com","","","","false","False","","",""
+"valid@example.com","invalid","does_not_accept_mail","valid","example.com","","","","false","False","","",""
